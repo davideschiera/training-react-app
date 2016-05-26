@@ -6,6 +6,7 @@ export default (props) => (
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
         </p>
         <strong>Loaded!</strong>
-        <span>1, 2, 3</span>
+        <span>{props.data.join(', ')}</span>
+        <button onClick={props.reload}>Reload!</button>
     </div>
 )
