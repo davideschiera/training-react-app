@@ -6,8 +6,8 @@ export default class Dashboards extends React.Component {
             <div>
                 <h2>Dashboards</h2>
                 <ul>
-                    <li><a>1 - Something</a></li>
-                    <li><a>2 - Else</a></li>
+                    <li><a href="/#/dashboards/1">1 - Something</a></li>
+                    <li><a href="/#/dashboards/2">2 - Else</a></li>
                 </ul>
 
                 {this.props.children}
